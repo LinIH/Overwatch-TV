@@ -1,0 +1,121 @@
+body {
+  color: #FFF;
+  background-image: url("images/overwatch_bg_2048_1536_filter.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  z-index: -999;
+}
+#container #logo {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  text-shadow: 2px 2px #aaa;
+}
+#container .lang-button {
+  border: none;
+  background: none;
+  color: #000;
+}
+#container .lang-button:hover {
+  cursor: pointer;
+}
+
+#content {
+  width: 1000px;
+  margin: auto;
+}
+
+.item {
+  width: 300px;
+  height: 200px;
+  background: #333;
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+  padding-bottom: 70px;
+  position: relative;
+  top: 140px;
+}
+.item:hover {
+  border: solid 1px #000;
+  filter: contrast(100%) brightness(140%);
+}
+.item a {
+  color: #FFF;
+}
+
+.placeholder {
+  background-size: 300px 170px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.video {
+  width: 300px;
+  height: 170px;
+}
+
+.avatar {
+  opacity: 0.6;
+  position: absolute;
+  top: 170px;
+  width: 300px;
+  height: 100px;
+  left: 0px;
+  border-top: 1px solid #FFF;
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  left: 90px;
+  top: 0px;
+  font-size: 16px;
+  width: 210px;
+}
+.info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#goto-top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #f63e3e;
+  color: #FFF;
+  top: 200px;
+  right: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 2px 2px #aaa;
+}
+#goto-top:hover {
+  background: #db0a0a;
+}
+
+/*# sourceMappingURL=style.css.map */
